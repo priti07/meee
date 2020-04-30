@@ -1,0 +1,98 @@
+body{
+background-color:gainsboro;
+ margin:0;
+ }
+ header{
+ background-color:white red yellow;
+ float:left;
+ height:100px;
+ width:100%;
+ justify-content:center;
+ background-image: linear-gradient(to right, red , yellow);
+ }
+ header img{
+ padding:10px 0px 10px 550px;
+ }
+ header h1{
+ padding:10px 550px 10px 0px;
+ }
+ nav{
+ height:38px;
+ background-color:black;
+ margin:0;
+ }
+ .clr{
+ clear:both;
+ }
+nav ul{
+list-style-type:none;
+display:flex;
+justify-content:center;
+ margin:0;
+ }
+nav ul li{
+padding:10px;
+display:block;
+background-color:lightgrey;
+}
+ a:link{
+  background-color:yellow;
+ }
+ a:visited{
+  color:green;
+  }
+ a:hover{
+ background-color:red;
+ }
+ a:active{
+  background-color:white;
+  }
+section img{
+opacity:0.25;
+margin:20px 10px;
+border-style:inset;
+border-color:lightblue;
+}
+section img:hover{
+opacity:1;
+margin:20px 10px;
+border-style:outset;
+border-color:lightblue;
+}
+h3{
+float:left;
+width:50%;
+margin:20px 20px 10px 10px;
+border-style:ridge;
+border-color:red;
+background-color:white;
+padding:10px;
+text-align:center;
+}
+h4{
+float:left;
+width:50%;
+margin:20px 20px 10px 10px;
+border-style:ridge;
+border-color:red;
+background-color:white;
+padding:10px;
+text-align:center;
+border-radius:25px;
+box-shadow:15px blue;
+}
+h4+p{
+float:left;
+width:50%;
+margin:20px 20px 10px 10px;
+border-style:ridge;
+border-color:red;
+background-color:white;
+padding:10px;
+color:green;
+border-radius:10px 20px;
+}
+footer{
+color:blue;
+text-align:center;
+}

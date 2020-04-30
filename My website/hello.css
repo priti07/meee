@@ -1,0 +1,13 @@
+body {
+background-color:lightgrey;
+}
+div{
+background-color:white;
+margin:100px 300px;
+border-style:inset;
+border-color:red lightgrey lightgrey red;
+text-align:center;
+width:auto;
+height:auto;
+padding:200px 100px;
+}
